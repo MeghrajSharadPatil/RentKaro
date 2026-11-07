@@ -1,0 +1,48 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-sans: 'Plus Jakarta Sans', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-mono: 'JetBrains Mono', monospace;
+  }
+
+  body {
+    font-family: var(--font-sans);
+    color: #17172B;
+    background-color: #F8FAFC;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, .font-display {
+    font-family: var(--font-sans);
+    letter-spacing: -0.025em;
+  }
+
+  .font-mono, .tabular-nums {
+    font-family: var(--font-mono);
+    font-variant-numeric: tabular-nums;
+  }
+}
+
+.rentbase-hero-bg {
+  background: radial-gradient(120% 90% at 50% 0%, #D9EFF7 0%, #E7F6F2 42%, #F4FBF8 74%, #F8FAFC 100%);
+}
+
+.rentbase-btn-primary {
+  background: linear-gradient(180deg, #2CC06E 0%, #1F9D55 100%);
+  box-shadow: 0 4px 14px rgba(31, 157, 85, 0.28), inset 0 1px 0 rgba(255, 255, 255, 0.35);
+}
+
+.rentbase-btn-primary:hover {
+  background: linear-gradient(180deg, #25B264 0%, #198B4A 100%);
+}
+
+.rentbase-btn-secondary {
+  background: rgba(226, 245, 234, 0.85);
+  border: 1px solid rgba(34, 168, 97, 0.35);
+  color: #197A42;
+}
+
+.rentbase-btn-secondary:hover {
+  background: rgba(209, 239, 222, 0.95);
+}

@@ -1,0 +1,6 @@
+{
+  "name": "RentKaro — Campus & City Peer-to-Peer Rental Marketplace",
+  "description": "Your Campus. Your Marketplace. Rent Anything. A college-first peer-to-peer rental platform for students to rent and share gear, textbooks, lab equipment, and electronics across campus and city.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
